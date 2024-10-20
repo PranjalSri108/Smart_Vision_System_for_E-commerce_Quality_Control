@@ -1,0 +1,7 @@
+streamlit
+opencv-python
+easyocr
+pillow
+groq
+numpy
+pandas
