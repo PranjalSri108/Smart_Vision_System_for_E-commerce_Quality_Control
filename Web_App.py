@@ -1,6 +1,3 @@
-import imgaug_patch
-imgaug_patch.patch_imgaug()
-
 import os
 import cv2
 import json
