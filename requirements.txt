@@ -1,8 +1,8 @@
-numpy==2.1.2
-pandas==2.2.3
-Pillow<11,>=7.1.0  # Compatible with streamlit
+numpy>=1.26.0
+pandas>=2.0.0
+Pillow<11,>=7.1.0
 streamlit==1.39.0
 paddleocr==2.9.0
-opencv-python==4.8.0.74  # Use headless if GUI support isn't needed
+opencv-python==4.8.0.74
 inference-sdk==0.9.17
-groq==0.9.17  # Ensure compatibility with Python 3.11 only
+groq==0.11.0  # Latest stable version
