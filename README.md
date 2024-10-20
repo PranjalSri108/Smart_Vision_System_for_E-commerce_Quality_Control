@@ -102,9 +102,8 @@ quality-control-assistant/
 ```
 
 ## 🤝 Team Members
-- [Team Member 1]
-- [Team Member 2]
-- [Team Member 3]
+- Pranjal Srivastav (Team Lead)
+- Aryan Chaudhary
 
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
