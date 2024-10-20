@@ -8,6 +8,8 @@
 
 A comprehensive quality control system that combines OCR, computer vision, and AI to automate product inspection and quality assurance processes. [Working Video](https://youtu.be/yBr6TauzZuc?si=brlCcT_e9grymsqJ)
 
+### Main file of code: Web_App.py
+
 ## 🚀 Features
 
 ### 1. Product Label Information Extractor
