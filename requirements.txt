@@ -1,9 +1,7 @@
-opencv-python-headless
-numpy
-pandas
-Pillow
-streamlit
-paddleocr
-inference-sdk
-groq
-cv2
+numpy==2.1.2
+pandas==2.2.3
+Pillow==11.0.0
+streamlit==1.39.0
+paddleocr==2.9.0
+opencv-python-headless==4.8.0.74  # Use headless if GUI support isn't needed
+inference-sdk==0.9.17
