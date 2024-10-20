@@ -1,7 +1,8 @@
 numpy==2.1.2
 pandas==2.2.3
-Pillow==11.0.0
+Pillow<11,>=7.1.0  # Compatible with streamlit
 streamlit==1.39.0
 paddleocr==2.9.0
 opencv-python-headless==4.8.0.74  # Use headless if GUI support isn't needed
 inference-sdk==0.9.17
+groq==0.9.17  # Ensure compatibility with Python 3.11 only
