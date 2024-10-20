@@ -26,7 +26,8 @@ A comprehensive quality control system that combines OCR, computer vision, and A
 - Supports both image upload and webcam input
 
 ### 2. NOS (Number of Samples) Counter
-- Infrared technology-based object counting
+- Image Recognition-based object counting
+- Yolov11 custom trained model on 100+ product categories
 - Real-time counting on conveyor belts
 - Color and transparency independent detection
 
