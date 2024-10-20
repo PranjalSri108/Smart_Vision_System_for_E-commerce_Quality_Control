@@ -156,6 +156,49 @@ with tab2:
     of their color or transparency.
     """)
 
+    uploaded_image = st.file_uploader("Upload an image to count items", type=["jpg", "jpeg", "png"], key="nos_uploader")
+
+    if uploaded_image is not None:
+        file_bytes = np.asarray(bytearray(uploaded_image.read()), dtype=np.uint8)
+        image = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
+        height, width = image.shape[:2]
+        resized_image = cv2.resize(image, (int(width * 0.5), int(height * 0.5)))
+        temp_image_path = "temp_image.jpg"
+        cv2.imwrite(temp_image_path, resized_image)
+
+        with st.spinner("Counting objects..."):
+            result = CLIENT.infer(temp_image_path, model_id="grid_6.0_dataset-qrd2r/2")
+
+        if "predictions" in result:
+            predictions = result["predictions"]
+            object_counts = {}
+
+            for prediction in predictions:
+                class_name = prediction["class"]
+                if class_name in object_counts:
+                    object_counts[class_name] += 1
+                else:
+                    object_counts[class_name] = 1
+
+                x_min = int(prediction['x'] - prediction['width'] / 2)
+                y_min = int(prediction['y'] - prediction['height'] / 2)
+                x_max = int(prediction['x'] + prediction['width'] / 2)
+                y_max = int(prediction['y'] + prediction['height'] / 2)
+
+                color = CLASS_COLORS.get(class_name, (0, 255, 0))
+                cv2.rectangle(resized_image, (x_min, y_min), (x_max, y_max), color, 2)
+                cv2.putText(resized_image, class_name, (x_min, y_min - 10), 
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
+
+            st.image(resized_image, channels="BGR", use_column_width=True)
+            st.subheader("Number of Samples Detected (NOS):")
+            df = pd.DataFrame(list(object_counts.items()), columns=["Class", "Count"])
+            st.table(df)
+
+        else:
+            st.warning("No objects detected. Please try with another image.")
+
+
 #--------------------------------------TASK 4-----------------------------------------------
 
 ROBOFLOW_TRAINED_MODEL = 'https://demo.roboflow.com/grid_6.0_dataset-qrd2r/2?publishable_key=rf_CzzWnlDIYYfT9AlYaYLXCH0D22l2'
