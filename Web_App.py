@@ -153,10 +153,10 @@ with tab1:
 with tab2:
     st.header("NOS Counting using IR")
     st.success("""
-    NOS (Number of Samples) counting is crucial for inventory management. This section 
-    utilizes Infrared (IR) technology to accurately count objects on a conveyor belt. 
-    IR sensors can detect objects regardless of their color or transparency, making this 
-    method highly reliable for various product types.
+    We used a YOLOv11 custom-trained model to detect 100+ categories of food, beauty, drink, and medical items. 
+    Accurate NOS (Number of Samples) counting is crucial for inventory management. The model ensures precise 
+    object detection on a conveyor belt, enabling reliable counting across various product types, regardless 
+    of their color or transparency.
     """)
 
 #--------------------------------------TASK 4-----------------------------------------------
