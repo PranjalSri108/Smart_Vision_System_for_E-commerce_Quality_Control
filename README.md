@@ -6,7 +6,7 @@
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-green.svg)](https://opencv.org)
 [![PaddleOCR](https://img.shields.io/badge/PaddleOCR-2.7+-yellow.svg)](https://github.com/PaddlePaddle/PaddleOCR)
 
-A comprehensive quality control system that combines OCR, computer vision, and AI to automate product inspection and quality assurance processes.
+A comprehensive quality control system that combines OCR, computer vision, and AI to automate product inspection and quality assurance processes. [Working Video](https://youtu.be/yBr6TauzZuc?si=brlCcT_e9grymsqJ)
 
 ## 🚀 Features
 
