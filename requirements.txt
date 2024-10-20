@@ -1,8 +1,7 @@
-pandas
-paddlepaddle
-inference-sdk
+numpy==1.24.3
+paddleocr
+streamlit
+pillow
 groq
-torch
-opencv-python-headless
-numpy
-Pillow
+inference-sdk
+imgaug==0.4.0
