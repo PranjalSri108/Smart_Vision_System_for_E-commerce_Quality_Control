@@ -70,7 +70,7 @@ A comprehensive quality control system that combines OCR, computer vision, and A
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/quality-control-assistant.git
+git clone https://github.com/PranjalSri108/Smart_Vision_System_for_E-commerce_Quality_Control.git
 cd quality-control-assistant
 ```
 
