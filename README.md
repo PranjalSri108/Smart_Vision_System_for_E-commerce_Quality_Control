@@ -111,9 +111,3 @@ quality-control-assistant/
 
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-- Flipkart GRID 6.0 for the opportunity
-- PaddleOCR community
-- Roboflow for object detection models
-- Groq for LLM API access
