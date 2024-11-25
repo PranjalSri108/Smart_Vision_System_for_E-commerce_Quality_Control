@@ -10,6 +10,7 @@ A comprehensive quality control system that combines OCR, computer vision, and A
 [Working Video](https://youtu.be/yBr6TauzZuc?si=brlCcT_e9grymsqJ)
 
 ### Main file of code: Web_App.py
+### Working Video: [Video Link](https://youtu.be/yBr6TauzZuc?si=brlCcT_e9grymsqJ)
 
 ## 🚀 Features
 
