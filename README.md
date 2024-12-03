@@ -9,7 +9,7 @@
 A comprehensive quality control system that combines OCR, computer vision, and AI to automate product inspection and quality assurance processes. 
 
 ### Main file of code: Web_App.py
-##### Working Video: [Video Link](https://youtu.be/yBr6TauzZuc?si=brlCcT_e9grymsqJ)
+### Working Video: [Video Link](https://youtu.be/yBr6TauzZuc?si=brlCcT_e9grymsqJ)
 
 ## 🚀 Features
 
