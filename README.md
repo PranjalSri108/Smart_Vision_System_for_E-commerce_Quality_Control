@@ -60,8 +60,10 @@ A comprehensive quality control system that combines OCR, computer vision, and A
 ### 5. Database Viewer
 - Real-time updated database view option in specific format
 - Products Label OCR Database:
-  | Header 1       | Header 2       | Header 3       |
-  |----------------|----------------|----------------|
+  | ID no.         | Product Name    | Brand Name     | Size       | MRP      | Expiry Date    | Manufacturing Date  | TIME STAMP     |
+  |----------------|-----------------|----------------|------------|----------|----------------|---------------------|----------------|
+  | ....           | ....            | ....           | ....       | ....     | ....           | ....                | ....           | 
+
 
 
 ### 6. Conveyor Belt Simulation
