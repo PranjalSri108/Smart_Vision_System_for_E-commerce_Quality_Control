@@ -23,12 +23,14 @@ A comprehensive quality control system that combines OCR, computer vision, and A
   - MRP
   - Expiry Date
   - Manufacturing Date
+- **Data is automatically saved into a SQLite database (`products.db`).**
 - Supports both image upload and webcam input
 
 ### 2. NOS (Number of Samples) Counter
 - Image Recognition-based object counting
 - Yolov11 custom trained model on 100+ product categories
 - Real-time counting on conveyor belts
+- **Counts are saved into a SQLite database (`nos_count.db`).**
 - Color and transparency independent detection
 
 ### 3. Freshness Detection System
@@ -38,6 +40,7 @@ A comprehensive quality control system that combines OCR, computer vision, and A
   - Vegetables: Bitter Gourd, Capsicum, Tomato
 - Real-time classification with bounding boxes
 - Confidence score display
+- **Detections are saved into a SQLite database (`fruit_detections.db`).**
 
 ### 4. Quality Inspector
 - Automated inspection system for bottles and cans
@@ -62,6 +65,7 @@ A comprehensive quality control system that combines OCR, computer vision, and A
 - OpenCV - Image processing
 - PaddleOCR - Optical Character Recognition
 - Groq - Large Language Model API
+- SQLite3 - Database for storing extracted data and detections
 - Roboflow - Object detection models
 - ROS Noetic - Robotic arm simulation
 - Gazebo - 3D robotics simulator
@@ -88,6 +92,11 @@ export GROQ_API_KEY='your_groq_api_key'
 ```bash
 streamlit run Web_App.py
 ```
+5. To view the Databases:
+```bash
+pyhton3 sql_data.py
+```
+Then choose the databae to view
 
 ## 🔑 API Keys Required
 - Groq API Key
