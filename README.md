@@ -7,7 +7,7 @@
 [![PaddleOCR](https://img.shields.io/badge/PaddleOCR-2.7+-yellow.svg)](https://github.com/PaddlePaddle/PaddleOCR)
 [![SQLite3](https://img.shields.io/badge/SQLite3-Built--in-blue.svg)](https://www.sqlite.org)
 
-A comprehensive quality control system that combines OCR, computer vision, and AI to automate product inspection and quality assurance processes. 
+A comprehensive quality control system that combines OCR, computer vision, and AI to automate product inspection and quality assurance processes and maintains updated databases of each operation. 
 
 ### DEPLOYED APP: [streamlit/applink](https://team-cifar-flipartgrid-submission.streamlit.app/)
 ### WORKING VIDEO: [youtube/videolink](https://youtu.be/yBr6TauzZuc?si=brlCcT_e9grymsqJ)
