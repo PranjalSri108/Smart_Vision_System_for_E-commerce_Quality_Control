@@ -81,7 +81,7 @@ A comprehensive quality control system that combines OCR, computer vision, and A
 1. Clone the repository:
 ```bash
 git clone https://github.com/PranjalSri108/Smart_Vision_System_for_E-commerce_Quality_Control.git
-cd quality-control-assistant
+cd Smart_Vision_System_for_E-commerce_Quality_Control
 ```
 
 2. Install required packages:
@@ -89,16 +89,11 @@ cd quality-control-assistant
 pip install -r requirements.txt
 ```
 
-3. Set up environment variables:
-```bash
-export GROQ_API_KEY='your_groq_api_key'
-```
-
-4. Run the application:
+3. Run the application:
 ```bash
 streamlit run Web_App.py
 ```
-5. To view the Databases:
+4. To view the Databases:
 ```bash
 pyhton3 sql_data.py
 ```
