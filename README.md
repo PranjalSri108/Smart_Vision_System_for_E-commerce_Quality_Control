@@ -5,6 +5,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-green.svg)](https://opencv.org)
 [![PaddleOCR](https://img.shields.io/badge/PaddleOCR-2.7+-yellow.svg)](https://github.com/PaddlePaddle/PaddleOCR)
+[![SQLite3](https://img.shields.io/badge/SQLite3-Built--in-blue.svg)](https://www.sqlite.org)
 
 A comprehensive quality control system that combines OCR, computer vision, and AI to automate product inspection and quality assurance processes. 
 
