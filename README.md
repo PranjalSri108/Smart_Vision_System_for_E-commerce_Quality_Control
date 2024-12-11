@@ -55,7 +55,10 @@ A comprehensive quality control system that combines OCR, computer vision, and A
     - Fissures
     - Open-can defects
 
-### 5. Conveyor Belt Simulation
+### 5. Database Viewer
+- Real-time updated database view option in specific format
+
+### 6. Conveyor Belt Simulation
 - Smart lighting system simulation
 - Robotic arm integration with mounted camera
 - Automated segregation system
