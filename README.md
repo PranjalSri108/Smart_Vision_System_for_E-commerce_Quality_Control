@@ -95,7 +95,7 @@ streamlit run Web_App.py
 ```
 4. To view the Databases:
 ```bash
-pyhton3 sql_data.py
+python3 sql_data.py
 ```
 Then choose the databae to view
 
